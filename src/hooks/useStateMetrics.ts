@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import stateMetrics from '../data/state_metrics.json'
-import { StateMetricsResponse, StateSummary } from '../types/metrics'
+import type { StateMetricsResponse, StateSummary } from '../types/metrics'
 
 export const useStateMetrics = () => {
   const parsed = useMemo(() => stateMetrics as StateMetricsResponse, [])

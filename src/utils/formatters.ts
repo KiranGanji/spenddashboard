@@ -1,4 +1,4 @@
-import { DetailMetricUnit, MetricDelta, MetricUnit } from '../types/metrics'
+import type { DetailMetricUnit, MetricDelta, MetricUnit } from '../types/metrics'
 
 const currencyFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',

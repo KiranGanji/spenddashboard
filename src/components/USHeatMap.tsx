@@ -5,7 +5,7 @@ import { feature } from 'topojson-client'
 import type { GeometryCollection, Topology } from 'topojson-specification'
 import usStates from 'us-atlas/states-10m.json'
 import fipsMap from '../data/state_fips.json'
-import { StateSummary } from '../types/metrics'
+import type { StateSummary } from '../types/metrics'
 import { formatMetricValue, formatPercent } from '../utils/formatters'
 import { getGrowthColor, growthLegend, riskColors } from '../utils/colors'
 
@@ -116,8 +116,8 @@ export const USHeatMap = ({
         <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50/40">
           <ComposableMap projection="geoAlbersUsa" width={900} height={520}>
             <Geographies geography={geography}>
-              {({ geographies }) =>
-                geographies.map((geo) => {
+              {({ geographies }: { geographies: any[] }) =>
+                geographies.map((geo: any) => {
                   const fips = String(geo.id).padStart(2, '0')
                   const stateMeta = fipsToState[fips]
                   const metrics = stateMeta ? stateByCode[stateMeta.code] : undefined

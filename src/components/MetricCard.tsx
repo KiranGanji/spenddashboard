@@ -1,5 +1,5 @@
 import { clsx } from 'clsx'
-import { NationalKpi } from '../types/metrics'
+import type { NationalKpi } from '../types/metrics'
 import { formatDelta, formatMetricValue } from '../utils/formatters'
 import { metricStatusStyles } from '../utils/colors'
 

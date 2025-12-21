@@ -5,12 +5,12 @@ import {
   LabelList,
   ResponsiveContainer,
   Tooltip,
-  TooltipProps,
   XAxis,
   YAxis,
 } from 'recharts'
-import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
-import { LabeledMetric } from '../../types/metrics'
+import type { TooltipProps } from 'recharts'
+import type { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
+import type { LabeledMetric } from '../../types/metrics'
 import { formatMetricValue } from '../../utils/formatters'
 
 type UtilizationChartProps = {

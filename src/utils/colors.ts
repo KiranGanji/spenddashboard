@@ -1,4 +1,4 @@
-import { MetricStatus, StateRiskLevel } from '../types/metrics'
+import type { MetricStatus, StateRiskLevel } from '../types/metrics'
 
 export const metricStatusStyles: Record<
   MetricStatus,

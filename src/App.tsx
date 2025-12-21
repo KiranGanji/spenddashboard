@@ -3,7 +3,7 @@ import { MetricsBar } from './components/MetricsBar'
 import { USHeatMap } from './components/USHeatMap'
 import { StateDrilldown } from './components/StateDrilldown'
 import { useStateMetrics } from './hooks/useStateMetrics'
-import { StateSummary } from './types/metrics'
+import type { StateSummary } from './types/metrics'
 import { formatMetricValue, formatPercent } from './utils/formatters'
 
 function App() {

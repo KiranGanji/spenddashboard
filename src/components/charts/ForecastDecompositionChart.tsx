@@ -5,12 +5,12 @@ import {
   Legend,
   ResponsiveContainer,
   Tooltip,
-  TooltipProps,
   XAxis,
   YAxis,
 } from 'recharts'
-import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
-import { ForecastComponent } from '../../types/metrics'
+import type { TooltipProps } from 'recharts'
+import type { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
+import type { ForecastComponent } from '../../types/metrics'
 import { formatPercent } from '../../utils/formatters'
 
 type ForecastDecompositionChartProps = {

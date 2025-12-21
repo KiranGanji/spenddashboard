@@ -4,11 +4,11 @@ import {
   PieChart,
   ResponsiveContainer,
   Tooltip,
-  TooltipProps,
   Cell,
 } from 'recharts'
-import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
-import { SpendCompositionSlice } from '../../types/metrics'
+import type { TooltipProps } from 'recharts'
+import type { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
+import type { SpendCompositionSlice } from '../../types/metrics'
 import { formatMetricValue } from '../../utils/formatters'
 
 type SpendCompositionChartProps = {

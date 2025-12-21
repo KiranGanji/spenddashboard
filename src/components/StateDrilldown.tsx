@@ -1,5 +1,5 @@
-import { Fragment, ReactNode } from 'react'
-import { StateDetail, StateSummary } from '../types/metrics'
+import { Fragment, type ReactNode } from 'react'
+import type { StateDetail, StateSummary } from '../types/metrics'
 import { useStateDetail } from '../hooks/useStateDetail'
 import { formatMetricValue, formatPercent } from '../utils/formatters'
 import { riskColors } from '../utils/colors'
