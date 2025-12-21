@@ -1,0 +1,38 @@
+{
+  "stateCode": "TX",
+  "overview": {
+    "totalSpend": 142000000,
+    "pmpm": 405.18,
+    "yoyGrowth": 0.058,
+    "shareOfNationalSpend": 0.108,
+    "varianceContribution": 0.15
+  },
+  "composition": [
+    { "category": "Inpatient", "value": 44000000 },
+    { "category": "Outpatient", "value": 40000000 },
+    { "category": "Professional", "value": 31000000 },
+    { "category": "Pharmacy", "value": 27000000 }
+  ],
+  "utilization": [
+    { "label": "Admission Rate per 1K", "value": 74, "unit": "per1k" },
+    { "label": "ER Visit Rate per 1K", "value": 198, "unit": "per1k" },
+    { "label": "Average Length of Stay", "value": 4.7, "unit": "days" },
+    { "label": "Readmission Rate", "value": 0.094, "unit": "percent" }
+  ],
+  "unitCosts": [
+    { "label": "Average Cost per Admission", "value": 17200, "unit": "currency" },
+    { "label": "Average ER Cost", "value": 1310, "unit": "currency" },
+    { "label": "Average Cost per Prescription", "value": 116, "unit": "currency" }
+  ],
+  "highCostIndicators": [
+    { "label": "Percent Spend from Oncology", "value": 0.16, "unit": "percent" },
+    { "label": "Specialty Drug Spend Growth", "value": 0.098, "unit": "percent" },
+    { "label": "Members with Annual Spend > $250K", "value": 158, "unit": "members" }
+  ],
+  "forecastDecomposition": [
+    { "driver": "Utilization", "value": 0.014 },
+    { "driver": "Unit Cost", "value": 0.021 },
+    { "driver": "Case Mix", "value": 0.012 },
+    { "driver": "Membership Changes", "value": 0.011 }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "stateCode": "FL",
+  "overview": {
+    "totalSpend": 125000000,
+    "pmpm": 402.1,
+    "yoyGrowth": 0.047,
+    "shareOfNationalSpend": 0.095,
+    "varianceContribution": 0.12
+  },
+  "composition": [
+    { "category": "Inpatient", "value": 36000000 },
+    { "category": "Outpatient", "value": 34000000 },
+    { "category": "Professional", "value": 29000000 },
+    { "category": "Pharmacy", "value": 26000000 }
+  ],
+  "utilization": [
+    { "label": "Admission Rate per 1K", "value": 77, "unit": "per1k" },
+    { "label": "ER Visit Rate per 1K", "value": 212, "unit": "per1k" },
+    { "label": "Average Length of Stay", "value": 4.8, "unit": "days" },
+    { "label": "Readmission Rate", "value": 0.096, "unit": "percent" }
+  ],
+  "unitCosts": [
+    { "label": "Average Cost per Admission", "value": 17400, "unit": "currency" },
+    { "label": "Average ER Cost", "value": 1295, "unit": "currency" },
+    { "label": "Average Cost per Prescription", "value": 114, "unit": "currency" }
+  ],
+  "highCostIndicators": [
+    { "label": "Percent Spend from Oncology", "value": 0.158, "unit": "percent" },
+    { "label": "Specialty Drug Spend Growth", "value": 0.092, "unit": "percent" },
+    { "label": "Members with Annual Spend > $250K", "value": 165, "unit": "members" }
+  ],
+  "forecastDecomposition": [
+    { "driver": "Utilization", "value": 0.012 },
+    { "driver": "Unit Cost", "value": 0.017 },
+    { "driver": "Case Mix", "value": 0.009 },
+    { "driver": "Membership Changes", "value": 0.009 }
+  ]
+}

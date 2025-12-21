@@ -1,0 +1,38 @@
+{
+  "stateCode": "NY",
+  "overview": {
+    "totalSpend": 128000000,
+    "pmpm": 430.44,
+    "yoyGrowth": 0.052,
+    "shareOfNationalSpend": 0.097,
+    "varianceContribution": 0.13
+  },
+  "composition": [
+    { "category": "Inpatient", "value": 38000000 },
+    { "category": "Outpatient", "value": 36000000 },
+    { "category": "Professional", "value": 28000000 },
+    { "category": "Pharmacy", "value": 26000000 }
+  ],
+  "utilization": [
+    { "label": "Admission Rate per 1K", "value": 79, "unit": "per1k" },
+    { "label": "ER Visit Rate per 1K", "value": 205, "unit": "per1k" },
+    { "label": "Average Length of Stay", "value": 4.9, "unit": "days" },
+    { "label": "Readmission Rate", "value": 0.1, "unit": "percent" }
+  ],
+  "unitCosts": [
+    { "label": "Average Cost per Admission", "value": 18150, "unit": "currency" },
+    { "label": "Average ER Cost", "value": 1390, "unit": "currency" },
+    { "label": "Average Cost per Prescription", "value": 120, "unit": "currency" }
+  ],
+  "highCostIndicators": [
+    { "label": "Percent Spend from Oncology", "value": 0.175, "unit": "percent" },
+    { "label": "Specialty Drug Spend Growth", "value": 0.104, "unit": "percent" },
+    { "label": "Members with Annual Spend > $250K", "value": 172, "unit": "members" }
+  ],
+  "forecastDecomposition": [
+    { "driver": "Utilization", "value": 0.013 },
+    { "driver": "Unit Cost", "value": 0.018 },
+    { "driver": "Case Mix", "value": 0.011 },
+    { "driver": "Membership Changes", "value": 0.01 }
+  ]
+}

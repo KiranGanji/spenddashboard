@@ -1,0 +1,38 @@
+{
+  "stateCode": "CA",
+  "overview": {
+    "totalSpend": 168000000,
+    "pmpm": 445.25,
+    "yoyGrowth": 0.068,
+    "shareOfNationalSpend": 0.127,
+    "varianceContribution": 0.19
+  },
+  "composition": [
+    { "category": "Inpatient", "value": 52000000 },
+    { "category": "Outpatient", "value": 49000000 },
+    { "category": "Professional", "value": 38000000 },
+    { "category": "Pharmacy", "value": 29000000 }
+  ],
+  "utilization": [
+    { "label": "Admission Rate per 1K", "value": 86, "unit": "per1k" },
+    { "label": "ER Visit Rate per 1K", "value": 215, "unit": "per1k" },
+    { "label": "Average Length of Stay", "value": 5.1, "unit": "days" },
+    { "label": "Readmission Rate", "value": 0.11, "unit": "percent" }
+  ],
+  "unitCosts": [
+    { "label": "Average Cost per Admission", "value": 18750, "unit": "currency" },
+    { "label": "Average ER Cost", "value": 1450, "unit": "currency" },
+    { "label": "Average Cost per Prescription", "value": 128, "unit": "currency" }
+  ],
+  "highCostIndicators": [
+    { "label": "Percent Spend from Oncology", "value": 0.19, "unit": "percent" },
+    { "label": "Specialty Drug Spend Growth", "value": 0.122, "unit": "percent" },
+    { "label": "Members with Annual Spend > $250K", "value": 214, "unit": "members" }
+  ],
+  "forecastDecomposition": [
+    { "driver": "Utilization", "value": 0.018 },
+    { "driver": "Unit Cost", "value": 0.025 },
+    { "driver": "Case Mix", "value": 0.014 },
+    { "driver": "Membership Changes", "value": 0.011 }
+  ]
+}
