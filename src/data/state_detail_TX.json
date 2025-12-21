@@ -7,6 +7,24 @@
     "shareOfNationalSpend": 0.108,
     "varianceContribution": 0.15
   },
+  "summaryInsights": [
+    {
+      "title": "Membership signal",
+      "detail": "Membership up ~1.4% QoQ, largely small group and ACA bronze; utilization rising faster than member growth."
+    },
+    {
+      "title": "Medical cost drivers",
+      "detail": "Orthopedic (DRGs 469/470) and GI endoscopy CPTs 45378-45385 leading the spend climb; specialty injectables adding pharmacy pressure."
+    },
+    {
+      "title": "Provider concentration",
+      "detail": "Houston Methodist and Baylor clusters showing unit cost variance above contracts; independent ASC utilization growing in Dallas-Fort Worth."
+    },
+    {
+      "title": "Policy gap to address",
+      "detail": "Strengthen oncology drug prior-auth/step edits and site-of-care for infusion suites; tighten cancer supportive-care drug policies."
+    }
+  ],
   "composition": [
     { "category": "Inpatient", "value": 44000000 },
     { "category": "Outpatient", "value": 40000000 },

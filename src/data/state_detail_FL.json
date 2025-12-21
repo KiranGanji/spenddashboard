@@ -7,6 +7,24 @@
     "shareOfNationalSpend": 0.095,
     "varianceContribution": 0.12
   },
+  "summaryInsights": [
+    {
+      "title": "Membership signal",
+      "detail": "Membership growth led by Medicare Advantage (+2.4%); utilization rising with aging cohort."
+    },
+    {
+      "title": "Medical cost drivers",
+      "detail": "Orthopedic joints (DRGs 469/470) and infusion CPT J-codes for oncology/immunology are main cost accelerators."
+    },
+    {
+      "title": "Provider concentration",
+      "detail": "HCA Florida and Baptist clusters showing higher unit costs; ASC migration around Miami driving outpatient spikes."
+    },
+    {
+      "title": "Policy gap to address",
+      "detail": "Tighten cancer drug step therapy and site-of-care; review MA cancer drug exceptions that bypass current edits."
+    }
+  ],
   "composition": [
     { "category": "Inpatient", "value": 36000000 },
     { "category": "Outpatient", "value": 34000000 },

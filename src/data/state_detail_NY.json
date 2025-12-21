@@ -7,6 +7,24 @@
     "shareOfNationalSpend": 0.097,
     "varianceContribution": 0.13
   },
+  "summaryInsights": [
+    {
+      "title": "Membership signal",
+      "detail": "Membership roughly flat; spend growth driven by higher acuity and downtown commercial mix."
+    },
+    {
+      "title": "Medical cost drivers",
+      "detail": "Cardiology DRGs 246/247 and neuro CPTs for advanced imaging are driving unit cost and utilization lift; oncology infusion J-codes rising."
+    },
+    {
+      "title": "Provider concentration",
+      "detail": "NYP, Mount Sinai, and Northwell running above escalators; out-of-network imaging centers pulling high-cost MRI/CT volume."
+    },
+    {
+      "title": "Policy gap to address",
+      "detail": "Oncology drug step therapy and site-of-care policies need tightening; consider radiation/chemo prior-auth refresh for high-variance providers."
+    }
+  ],
   "composition": [
     { "category": "Inpatient", "value": 38000000 },
     { "category": "Outpatient", "value": 36000000 },

@@ -7,6 +7,24 @@
     "shareOfNationalSpend": 0.127,
     "varianceContribution": 0.19
   },
+  "summaryInsights": [
+    {
+      "title": "Membership signal",
+      "detail": "Membership up ~2.1% QoQ with mix shifting to commercial PPO; spend lift outpacing member growth."
+    },
+    {
+      "title": "Medical cost drivers",
+      "detail": "Oncology infusions (J-codes) and cardiac DRGs 291/292 are leading unit cost lift alongside specialty pharmacy."
+    },
+    {
+      "title": "Provider concentration",
+      "detail": "Top 3 systems (Sutter, Stanford, UCSF) running 2-4% above contracted escalators; steerage leakage to out-of-network ambulatory surgery centers noted."
+    },
+    {
+      "title": "Policy gap to address",
+      "detail": "Tighten cancer drug site-of-care and step-therapy rules; revisit supportive-care J-codes where prior auth waivers are driving overruns."
+    }
+  ],
   "composition": [
     { "category": "Inpatient", "value": 52000000 },
     { "category": "Outpatient", "value": 49000000 },

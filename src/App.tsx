@@ -2,13 +2,17 @@ import { useMemo, useState } from 'react'
 import { MetricsBar } from './components/MetricsBar'
 import { USHeatMap } from './components/USHeatMap'
 import { StateDrilldown } from './components/StateDrilldown'
+import { NationalSpendModal } from './components/NationalSpendModal'
 import { useStateMetrics } from './hooks/useStateMetrics'
+import { useNationalSpendDetail } from './hooks/useNationalSpendDetail'
 import type { StateSummary } from './types/metrics'
 import { formatMetricValue, formatPercent } from './utils/formatters'
 
 function App() {
   const { states } = useStateMetrics()
+  const nationalSpendDetail = useNationalSpendDetail()
   const [selectedStateCode, setSelectedStateCode] = useState<string | undefined>()
+  const [showSpendModal, setShowSpendModal] = useState(false)
 
   const stateByCode = useMemo(
     () =>
@@ -52,18 +56,18 @@ function App() {
       <main className="mx-auto max-w-6xl px-6 py-6">
         <header className="mb-4 flex flex-col gap-1">
           <p className="text-xs font-semibold uppercase tracking-wide text-ocean-600">
-            Medical Spend Forecasting
+            NextGen Forecasting
           </p>
           <h1 className="text-3xl font-semibold text-slate-900">
-            Enterprise dashboard for executive visibility
+            Medical Spend forecasting & Risk Analysis Dashboard
           </h1>
           <p className="text-sm text-slate-600">
-            Data-driven outlook of projected medical spend, YoY growth, and risk concentrations with
+            Advanced Machine learning based forecasting of medical spend using YoY growth, MoM growth trends across CPTs, DRG utilization patterns, policy shifts and risk concentrations with
             state-level drill-downs.
           </p>
         </header>
 
-        <MetricsBar />
+        <MetricsBar onPrimaryKpiClick={() => setShowSpendModal(true)} />
 
         <section className="mt-4">
           <USHeatMap
@@ -161,6 +165,11 @@ function App() {
         stateSummary={selectedState}
         isOpen={Boolean(selectedStateCode)}
         onClose={closeDrawer}
+      />
+      <NationalSpendModal
+        detail={nationalSpendDetail}
+        isOpen={showSpendModal}
+        onClose={() => setShowSpendModal(false)}
       />
     </div>
   )

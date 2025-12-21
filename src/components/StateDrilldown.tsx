@@ -115,6 +115,25 @@ export const StateDrilldown = ({
           </div>
         ) : (
           <Fragment>
+            {detail?.summaryInsights?.length ? (
+              <section className="mt-6 space-y-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+                  State summary
+                </h4>
+                <ul className="grid gap-3 md:grid-cols-2">
+                  {detail.summaryInsights.map((insight) => (
+                    <li
+                      key={insight.title}
+                      className="rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm text-slate-800"
+                    >
+                      <p className="font-semibold text-slate-900">{insight.title}</p>
+                      <p className="mt-1 text-slate-700">{insight.detail}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ) : null}
+
             <section className="mt-6 space-y-4">
               <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
                 State Spend Overview

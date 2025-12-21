@@ -1,14 +1,14 @@
 {
   "meta": {
-    "reportingPeriod": "FY2025 Q1",
-    "baselineLabel": "FY2024 Q4"
+    "reportingPeriod": "FY2026 Q1 (Jan-Mar 2026)",
+    "baselineLabel": "FY2025 Q4"
   },
   "kpis": [
     {
       "id": "totalProjectedMedicalSpend",
       "label": "Total Projected Medical Spend",
       "unit": "currency",
-      "value": 1320000000,
+      "value": 88620000000,
       "delta": {
         "value": 0.032,
         "direction": "up"
@@ -30,9 +30,9 @@
       "id": "mcr",
       "label": "Medical Cost Ratio",
       "unit": "ratio",
-      "value": 0.89,
+      "value": 0.896,
       "delta": {
-        "value": -0.006,
+        "value": 0.006,
         "direction": "down"
       },
       "status": "positive"

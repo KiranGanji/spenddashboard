@@ -7,6 +7,24 @@
     "shareOfNationalSpend": 0.073,
     "varianceContribution": 0.085
   },
+  "summaryInsights": [
+    {
+      "title": "Membership signal",
+      "detail": "Membership slightly down (-0.8%), but spend still rising due to higher acuity and specialty drug load."
+    },
+    {
+      "title": "Medical cost drivers",
+      "detail": "Renal dialysis bundles and oncology infusions are driving spend; imaging CPTs for neuro/ortho up double digits."
+    },
+    {
+      "title": "Provider concentration",
+      "detail": "Advocate Aurora and Northwestern above escalators on renal/oncology cases; outpatient imaging leakage to independent centers."
+    },
+    {
+      "title": "Policy gap to address",
+      "detail": "Strengthen cancer drug prior-auth/step therapy; move infusions to lower-cost sites and tighten policy overrides on oncology regimens."
+    }
+  ],
   "composition": [
     { "category": "Inpatient", "value": 28000000 },
     { "category": "Outpatient", "value": 25000000 },

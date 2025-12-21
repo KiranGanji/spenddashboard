@@ -92,4 +92,38 @@ export interface StateDetail {
   unitCosts: LabeledMetric[]
   highCostIndicators: LabeledMetric[]
   forecastDecomposition: ForecastComponent[]
+  summaryInsights?: { title: string; detail: string }[]
+}
+
+export interface NationalSpendPoint {
+  quarter: string
+  actual?: number
+  forecastBase?: number
+  forecastLow?: number
+  forecastHigh?: number
+}
+
+export interface SpendScenario {
+  scenario: 'Downside' | 'Base case' | 'Upside'
+  spend: number
+  driverSummary: string
+  interpretation: string
+}
+
+export interface MethodologyCategory {
+  category: string
+  datapoints: string[]
+}
+
+export interface NationalSpendDetail {
+  summary: {
+    label: string
+    currentValue: number
+    units: string
+    confidence: number
+  }
+  timeSeries: NationalSpendPoint[]
+  scenarios: SpendScenario[]
+  methodology: MethodologyCategory[]
+  takeaway: string
 }

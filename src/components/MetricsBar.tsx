@@ -1,7 +1,11 @@
 import { useNationalMetrics } from '../hooks/useNationalMetrics'
 import { MetricCard } from './MetricCard'
 
-export const MetricsBar = () => {
+type MetricsBarProps = {
+  onPrimaryKpiClick?: () => void
+}
+
+export const MetricsBar = ({ onPrimaryKpiClick }: MetricsBarProps) => {
   const { meta, kpis } = useNationalMetrics()
 
   return (
@@ -20,8 +24,13 @@ export const MetricsBar = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
-        {kpis.map((kpi) => (
-          <MetricCard key={kpi.id} metric={kpi} baselineLabel={meta.baselineLabel} />
+        {kpis.map((kpi, index) => (
+          <MetricCard
+            key={kpi.id}
+            metric={kpi}
+            baselineLabel={meta.baselineLabel}
+            onClick={index === 0 ? onPrimaryKpiClick : undefined}
+          />
         ))}
       </div>
     </section>

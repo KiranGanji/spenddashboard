@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "label": "Total Projected Medical Spend",
+    "currentValue": 88620000000,
+    "units": "USD",
+    "confidence": 0.76
+  },
+  "timeSeries": [
+    { "quarter": "FY23 Q3", "actual": 78400000000 },
+    { "quarter": "FY23 Q4", "actual": 79600000000 },
+    { "quarter": "FY24 Q1", "actual": 81100000000 },
+    { "quarter": "FY24 Q2", "actual": 82300000000 },
+    { "quarter": "FY24 Q3", "actual": 83700000000 },
+    { "quarter": "FY24 Q4", "actual": 84900000000 },
+    { "quarter": "FY25 Q1", "actual": 85800000000 },
+    { "quarter": "FY25 Q2", "actual": 86700000000 },
+    {
+      "quarter": "FY25 Q3",
+      "forecastBase": 87700000000,
+      "forecastLow": 86000000000,
+      "forecastHigh": 89800000000
+    },
+    {
+      "quarter": "FY25 Q4",
+      "forecastBase": 88620000000,
+      "forecastLow": 86800000000,
+      "forecastHigh": 90900000000
+    },
+    {
+      "quarter": "FY26 Q1",
+      "forecastBase": 89900000000,
+      "forecastLow": 88100000000,
+      "forecastHigh": 92500000000
+    },
+    {
+      "quarter": "FY26 Q2",
+      "forecastBase": 91300000000,
+      "forecastLow": 89100000000,
+      "forecastHigh": 94200000000
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Downside",
+      "spend": 86800000000,
+      "driverSummary": "Higher acuity mix + specialty drug step-ups outpace utilization controls.",
+      "interpretation": "Spend growth driven by care getting more expensive; modest membership uptick."
+    },
+    {
+      "scenario": "Base case",
+      "spend": 88620000000,
+      "driverSummary": "Balanced utilization normalization, negotiated unit cost glide path, stable membership.",
+      "interpretation": "Mix of more people using care and modest unit cost lift; trend near plan."
+    },
+    {
+      "scenario": "Upside",
+      "spend": 90900000000,
+      "driverSummary": "Elective rebound + oncology prevalence + pharmacy trend at specialty tiers.",
+      "interpretation": "Both utilization and unit cost pressure; risk if rate negotiations slip."
+    }
+  ],
+  "methodology": [
+    {
+      "category": "Claims + Utilization",
+      "datapoints": [
+        "Inpatient/OP/Pro/Pharmacy claims by site of care",
+        "High-cost claimant tails and condition prevalence",
+        "Seasonality and rebound adjustments post deferrals"
+      ]
+    },
+    {
+      "category": "Membership & Demographics",
+      "datapoints": [
+        "Enrollment mix by product and segment",
+        "Aging curve and chronic condition load",
+        "Churn, reinstatement, and migration patterns"
+      ]
+    },
+    {
+      "category": "Provider & Contracting",
+      "datapoints": [
+        "Unit cost escalators and inflation riders",
+        "Network steerage and leakage controls",
+        "Authorization/denial, appeals overturn trends"
+      ]
+    },
+    {
+      "category": "Policy & Macro Signals",
+      "datapoints": [
+        "Benefit changes and coverage mandates",
+        "Inflation, medical CPI, wage pressures",
+        "Regulatory shifts impacting reimbursement"
+      ]
+    },
+    {
+      "category": "Clinical & Ground Signals",
+      "datapoints": [
+        "Respiratory/oncology/renal incidence curves",
+        "SDoH and local utilization shocks",
+        "On-the-ground feeds on outbreaks and severity"
+      ]
+    },
+    {
+      "category": "Modeling & Forecasting",
+      "datapoints": [
+        "Hierarchical GLMs for utilization and unit cost",
+        "Gradient boosting for tail risk and case mix",
+        "Scenario overlays for policy and macro shocks"
+      ]
+    }
+  ],
+  "takeaway": "You can see the historical climb, the forecast range, what drives the upside/downside, and which levers would move Total Projected Medical Spend."
+}

@@ -6,6 +6,7 @@ import { metricStatusStyles } from '../utils/colors'
 type MetricCardProps = {
   metric: NationalKpi
   baselineLabel: string
+  onClick?: () => void
 }
 
 const ArrowIcon = ({ direction }: { direction: 'up' | 'down' }) => (
@@ -19,7 +20,7 @@ const ArrowIcon = ({ direction }: { direction: 'up' | 'down' }) => (
   </svg>
 )
 
-export const MetricCard = ({ metric, baselineLabel }: MetricCardProps) => {
+export const MetricCard = ({ metric, baselineLabel, onClick }: MetricCardProps) => {
   const tone = metricStatusStyles[metric.status]
   const formattedValue = formatMetricValue(metric.value, metric.unit)
   const deltaLabel = `${formatDelta(metric.delta, 'percent')} vs ${baselineLabel}`
@@ -27,13 +28,17 @@ export const MetricCard = ({ metric, baselineLabel }: MetricCardProps) => {
   return (
     <div
       className={clsx(
-        'glass-panel relative flex h-full min-h-[150px] flex-col rounded-2xl border p-3 shadow-card transition hover:-translate-y-0.5 hover:shadow-lg md:min-h-[160px] lg:min-h-[170px]',
+        'glass-panel relative flex h-full min-h-[140px] flex-col rounded-2xl border p-3 shadow-card transition hover:-translate-y-0.5 hover:shadow-lg md:min-h-[160px] lg:min-h-[140px]',
         tone.border,
+        onClick ? 'cursor-pointer' : '',
       )}
+      onClick={onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
     >
       <div className="flex items-start justify-between gap-3">
         <div>
-          <p className="min-h-[48px] text-sm font-medium leading-snug text-slate-500 md:min-h-[52px]">
+          <p className="min-h-[35px] text-sm font-medium leading-snug text-slate-500 md:min-h-[35px]">
             {metric.label}
           </p>
           <p className="mt-2 text-2xl font-semibold text-slate-900">{formattedValue}</p>
