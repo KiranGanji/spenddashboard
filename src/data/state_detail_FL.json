@@ -9,22 +9,30 @@
   },
   "summaryInsights": [
     {
-      "title": "Membership signal",
-      "detail": "Membership growth led by Medicare Advantage (+2.4%); utilization rising with aging cohort."
+      "title": "ASC steerage gaps driving ~$900M excess procedural spend",
+      "detail": "Florida procedural spend is elevated as orthopedic and pain-management cases continue flowing through high-cost ambulatory surgery centers, exploiting ASC site-of-care and prior-authorization guardrails for CPT ranges 29827, 27447, and 62323, particularly across South Florida markets."
     },
     {
-      "title": "Medical cost drivers",
-      "detail": "Orthopedic joints (DRGs 469/470) and infusion CPT J-codes for oncology/immunology are main cost accelerators."
+      "title": "South Florida provider clusters running 10–15% above peers",
+      "detail": "Miami-Dade and Broward County provider groups exhibit unit-cost inflation 10–15% above statewide benchmarks for spine injections, imaging, and minor surgical procedures, contributing an estimated $700–900M of localized forecast pressure unrelated to member acuity."
     },
     {
-      "title": "Provider concentration",
-      "detail": "HCA Florida and Baptist clusters showing higher unit costs; ASC migration around Miami driving outpatient spikes."
+      "title": "Imaging and pain management denial leakage adding ~$500M",
+      "detail": "Denied Florida claims tied to advanced imaging (MRI/CT) and interventional pain procedures are frequently overturned via diagnosis reclassification and staged billing sequences, materially weakening assumed denial yield embedded in baseline forecasts."
     },
     {
-      "title": "Policy gap to address",
-      "detail": "Tighten cancer drug step therapy and site-of-care; review MA cancer drug exceptions that bypass current edits."
+      "title": "RCM concentration accelerating tactic reuse across FL networks",
+      "detail": "Clusters of Florida providers sharing common revenue cycle vendors show highly correlated CPT ordering patterns and appeal success rates, enabling rapid reuse of successful reimbursement tactics across independent practices and ASCs."
+    },
+    {
+      "title": "Medicare Advantage density amplifying behavioral spend risk",
+      "detail": "Florida’s high Medicare Advantage concentration magnifies the impact of coding intensity and utilization optimization, where small shifts in documentation and procedure mix translate into outsized state-level spend variance."
+    },
+    {
+      "title": "Behavioral spend distorting Florida medical trend signals",
+      "detail": "After controlling for utilization and demographic effects, $2–3B of Florida’s projected medical spend appears driven by controllable provider behavior in imaging, pain management, and outpatient surgery rather than true clinical demand growth."
     }
-  ],
+],
   "composition": [
     { "category": "Inpatient", "value": 36000000 },
     { "category": "Outpatient", "value": 34000000 },

@@ -9,20 +9,28 @@
   },
   "summaryInsights": [
     {
-      "title": "Membership signal",
-      "detail": "Membership up ~2.1% QoQ with mix shifting to commercial PPO; spend lift outpacing member growth."
+      "title": "Oncology site-of-care rules driving ~$1.2B excess spend",
+      "detail": "California oncology spend is materially inflated by outpatient hospital infusions for PD-1/PD-L1 drugs (e.g., CPT J9271, J9305) continuing at Sutter, Stanford, and UCSF facilities despite site-of-care and step-therapy policies intended to shift volume to lower-cost non-hospital settings."
     },
     {
-      "title": "Medical cost drivers",
-      "detail": "Oncology infusions (J-codes) and cardiac DRGs 291/292 are leading unit cost lift alongside specialty pharmacy."
+      "title": "Southern CA infusion clusters deviating 8–12% above norm",
+      "detail": "LA and Orange County provider groups show statistically significant unit-cost lift in oncology and rheumatology infusions, with DRGs 291/292 and related J-codes exceeding peer benchmarks by 8–12%, contributing approximately $600–800M of localized forecast pressure."
     },
     {
-      "title": "Provider concentration",
-      "detail": "Top 3 systems (Sutter, Stanford, UCSF) running 2-4% above contracted escalators; steerage leakage to out-of-network ambulatory surgery centers noted."
+      "title": "Appeal-driven denial leakage adding ~$400M annually",
+      "detail": "A repeatable subset of denied California claims—primarily specialty drug and ASC claims—are converted to paid status through appeal sequencing, modifier reconfiguration, and diagnosis substitution, materially weakening assumed denial effectiveness in baseline forecasts."
     },
     {
-      "title": "Policy gap to address",
-      "detail": "Tighten cancer drug site-of-care and step-therapy rules; revisit supportive-care J-codes where prior auth waivers are driving overruns."
+      "title": "RCM-linked provider networks amplifying billing behavior",
+      "detail": "Providers associated to R1 RCM vendor and Epic Systems exhibit near-identical CPT sequencing and appeal success rates, enabling rapid propagation of successful reimbursement tactics across California networks and increasing systemic forecast risk."
+    },
+    {
+      "title": "High concentration risk among top CA health systems",
+      "detail": "Fewer than 10 integrated California health systems account for a disproportionate share of oncology and specialty pharmacy growth, meaning even small behavioral shifts at these systems translate into multi-hundred-million-dollar forecast variance."
+    },
+    {
+      "title": "Behavior-driven spend distorting actuarial trend assumptions",
+      "detail": "When isolating utilization and morbidity effects, analysis indicates $2–4B of California’s projected medical spend is attributable to controllable provider and network behavior rather than true clinical demand, creating a clear opportunity for targeted intervention."
     }
   ],
   "composition": [

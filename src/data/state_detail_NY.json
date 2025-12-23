@@ -8,23 +8,31 @@
     "varianceContribution": 0.13
   },
   "summaryInsights": [
-    {
-      "title": "Membership signal",
-      "detail": "Membership roughly flat; spend growth driven by higher acuity and downtown commercial mix."
-    },
-    {
-      "title": "Medical cost drivers",
-      "detail": "Cardiology DRGs 246/247 and neuro CPTs for advanced imaging are driving unit cost and utilization lift; oncology infusion J-codes rising."
-    },
-    {
-      "title": "Provider concentration",
-      "detail": "NYP, Mount Sinai, and Northwell running above escalators; out-of-network imaging centers pulling high-cost MRI/CT volume."
-    },
-    {
-      "title": "Policy gap to address",
-      "detail": "Oncology drug step therapy and site-of-care policies need tightening; consider radiation/chemo prior-auth refresh for high-variance providers."
-    }
-  ],
+  {
+    "title": "Hospital outpatient pricing and site-of-care drift driving ~$1.0–1.6B",
+    "detail": "New York spend is structurally elevated as outpatient procedures and infusions continue to shift into higher-cost hospital outpatient settings; reinforcing site-of-care routing and tightening outpatient reimbursement guardrails is the most direct lever to reduce forecast pressure."
+  },
+  {
+    "title": "Downstate utilization hotspots deviating above statewide norm",
+    "detail": "Downstate provider clusters show statistically significant unit-cost lift and utilization intensity in outpatient imaging and specialty services, inconsistent with morbidity changes—indicating behavioral spend that baseline forecasting models absorb as trend."
+  },
+  {
+    "title": "Imaging and outpatient specialty edits losing effectiveness",
+    "detail": "Denied NY claims in advanced imaging and outpatient specialty pathways (MRI/CT CPT families) repeatedly convert to paid through diagnosis reclassification and staged billing, weakening baseline denial yield; tightening exception logic and appeal thresholds will restore control."
+  },
+  {
+    "title": "Concentration risk among large integrated systems",
+    "detail": "A small number of large New York health systems account for an outsized share of outpatient specialty and infusion growth, amplifying state forecast variance; targeted engagement and enforcement with these systems yields disproportionate impact."
+  },
+  {
+    "title": "Network spillover through shared billing operations and affiliations",
+    "detail": "Providers connected through shared billing operations show highly correlated CPT sequencing and appeal success, creating spillover risk where effective tactics propagate across the state; cluster-level interventions reduce systemic exposure."
+  },
+  {
+    "title": "Behavior-driven spend distorting NY trend assumptions",
+    "detail": "After controlling for utilization and morbidity, $2–4B of New York projected spend appears attributable to controllable provider behavior in hospital outpatient migration, imaging, and denial leakage rather than organic clinical demand growth."
+  }
+],
   "composition": [
     { "category": "Inpatient", "value": 38000000 },
     { "category": "Outpatient", "value": 36000000 },

@@ -8,23 +8,31 @@
     "varianceContribution": 0.085
   },
   "summaryInsights": [
-    {
-      "title": "Membership signal",
-      "detail": "Membership slightly down (-0.8%), but spend still rising due to higher acuity and specialty drug load."
-    },
-    {
-      "title": "Medical cost drivers",
-      "detail": "Renal dialysis bundles and oncology infusions are driving spend; imaging CPTs for neuro/ortho up double digits."
-    },
-    {
-      "title": "Provider concentration",
-      "detail": "Advocate Aurora and Northwestern above escalators on renal/oncology cases; outpatient imaging leakage to independent centers."
-    },
-    {
-      "title": "Policy gap to address",
-      "detail": "Strengthen cancer drug prior-auth/step therapy; move infusions to lower-cost sites and tighten policy overrides on oncology regimens."
-    }
-  ],
+  {
+    "title": "ER overutilization and avoidable admits driving ~$600–900M",
+    "detail": "Illinois spend is inflated by persistent ED-to-inpatient conversion and short-stay admits, with DRGs 291/292 (heart failure/shock) and sepsis-related admissions rising faster than member growth; tightening medical necessity and short-stay review in Chicagoland is the fastest lever."
+  },
+  {
+    "title": "Outpatient imaging escalation exploiting auth weak points",
+    "detail": "Advanced imaging volume (MRI/CT—CPT 70551–70553, 74176–74178) is concentrated in a small set of outpatient centers where prior-auth exceptions and resubmission patterns are converting denials to approvals; targeted pre-pay imaging edits and exception policy hardening will reduce forecast pressure."
+  },
+  {
+    "title": "Infusion and specialty drug spend drifting to high-cost settings",
+    "detail": "Specialty infusion claims show site-of-care drift toward higher-cost hospital outpatient settings (key J-code families), indicating enforcement gaps in site-of-care and step-therapy policies; redirecting volume to compliant lower-cost settings is a controllable lever embedded in the state forecast."
+  },
+  {
+    "title": "Appeal-driven denial leakage raising realized paid rate",
+    "detail": "A subset of denied Illinois claims repeatedly flips to paid status through sequencing and coding variation, weakening baseline denial yield assumptions; tightening appeal thresholds and adding denial-resistance rules for the highest-leak pathways will bring paid rate back in line."
+  },
+  {
+    "title": "Network spillover risk through shared billing operations",
+    "detail": "Providers connected via common billing operations show near-identical CPT sequencing and appeal success, creating spillover risk across Illinois networks; isolating and intervening on these clusters will prevent local tactics from becoming statewide trend."
+  },
+  {
+    "title": "Behavior-driven spend distorting IL trend assumptions",
+    "detail": "After controlling for utilization and morbidity, $1.5–2.5B of Illinois projected spend appears driven by controllable provider behavior in ED admits, imaging, and outpatient infusions rather than organic clinical demand growth."
+  }
+],
   "composition": [
     { "category": "Inpatient", "value": 28000000 },
     { "category": "Outpatient", "value": 25000000 },

@@ -8,23 +8,31 @@
     "varianceContribution": 0.15
   },
   "summaryInsights": [
-    {
-      "title": "Membership signal",
-      "detail": "Membership up ~1.4% QoQ, largely small group and ACA bronze; utilization rising faster than member growth."
-    },
-    {
-      "title": "Medical cost drivers",
-      "detail": "Orthopedic (DRGs 469/470) and GI endoscopy CPTs 45378-45385 leading the spend climb; specialty injectables adding pharmacy pressure."
-    },
-    {
-      "title": "Provider concentration",
-      "detail": "Houston Methodist and Baylor clusters showing unit cost variance above contracts; independent ASC utilization growing in Dallas-Fort Worth."
-    },
-    {
-      "title": "Policy gap to address",
-      "detail": "Strengthen oncology drug prior-auth/step edits and site-of-care for infusion suites; tighten cancer supportive-care drug policies."
-    }
-  ],
+  {
+    "title": "ASC-heavy outpatient surgery trend adding ~$1.2–1.8B",
+    "detail": "Texas spend is elevated by high-volume outpatient surgery through ASCs where site-of-care routing and medical necessity controls are uneven; high-frequency ortho and GI procedures (e.g., CPT 27447, 29827, 43239) are key contributors—tightening ASC steerage and pre-pay edits will move the state number quickly."
+  },
+  {
+    "title": "South Texas hotspot patterns deviating 10–20% above peers",
+    "detail": "Provider clusters in specific South Texas markets show unit-cost lift 10–20% above statewide benchmarks across imaging, injections, and minor surgeries, inconsistent with member mix and acuity—indicating localized behavioral spend that baseline forecasts misread as medical inflation."
+  },
+  {
+    "title": "High-cost drug and infusion controls bypassed in select corridors",
+    "detail": "Specialty drug/infusion claims (oncology and immunology J-code families) show repeat paid patterns despite step-therapy and site-of-care intent, suggesting policy bypass via coding/setting selection; enforcing compliant settings and tightening supportive-care add-on logic are primary levers."
+  },
+  {
+    "title": "Denial leakage via resubmission and modifier variation",
+    "detail": "A repeatable subset of denied Texas claims convert to paid through resubmission pathways and modifier sequencing, raising realized paid rate beyond baseline assumptions; hardening edits on the top leakage pathways will reduce forecast uncertainty."
+  },
+  {
+    "title": "Vendor-linked propagation risk across provider networks",
+    "detail": "Shared RCM/EHR configurations correlate with mirrored CPT sequences and overturn rates, enabling rapid tactic reuse across Texas provider networks; intervening at the network level prevents spillover and stabilizes state forecasting."
+  },
+  {
+    "title": "Material share of TX spend is controllable behavior",
+    "detail": "When isolating utilization and morbidity effects, $3–5B of Texas projected spend appears driven by controllable provider and network behavior in outpatient surgery, imaging, and specialty drugs rather than true demand growth."
+  }
+],
   "composition": [
     { "category": "Inpatient", "value": 44000000 },
     { "category": "Outpatient", "value": 40000000 },
